@@ -1,0 +1,71 @@
+
+.gridContainer{
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: darkblue;
+    color:darkblue;
+    
+    width: 100vw;
+    height:100vh;
+}
+
+.smallContainer{
+    position: absolute;
+    top: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    border-radius: 15px;
+    color:black;
+    width: 30vw;
+    height: 20vw;
+}
+
+.mainBody{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    background-color: darkblue;
+    color:darkblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    background-color: black;
+    color:black;
+    border-bottom: 1px solid #EEE;
+    height: 10vh;
+
+}
+
+.button {
+
+    border-radius: 10px;
+    border-color: white;
+    background-color: black;
+    border-width: 2px;
+    
+    width: 8vw;
+    height: 3vw;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.boldText{
+    color: white;
+    font-size: 22px;
+}
