@@ -1,8 +1,8 @@
 'use client'
 
-import "./globals.css";
+import "../globals.css";
 import { useState } from 'react';
-import styles from "./styles.module.css";
+import styles from "../styles.module.css";
 
 
 function BoxDiv({namebox} : {namebox:string}) {
@@ -13,7 +13,7 @@ function BoxDiv({namebox} : {namebox:string}) {
 
       
     return (
-    <div>
+    <div style={{width: '22vw', margin: '10px'}} >
     
     <div className={styles.textContainer}>
         <h1 className={styles.text}> {namebox}</h1>
@@ -65,7 +65,7 @@ function Login(){
 
         <div className={styles.textContainer}>
         <h1 className={styles.text}>Dont Have an Account? Sign up</h1>
-        <h1  className={styles.blueUnderLineText}>Here </h1>
+        <h1  className={styles.blueUnderLineText}> Here </h1>
         </div>
     
     </div>
@@ -77,7 +77,17 @@ export function loginPage(){
     return (
         <div className={styles.gridContainer}> 
             <main>
-                <div className={styles.header}></div>
+                <div className={styles.header}>
+                    <h1 className={styles.headerTextLarger}>
+                        Triviz
+                        </h1>
+                    <h1 className={styles.headerText}> About us </h1>
+                    <h1 className={styles.headerText}> Sample </h1>
+                    <a className={styles.headerText}
+                    href="https://github.com/pr1nceray/3dOrgChartRemix"
+                    target="_blank">
+                         Github </a>
+                </div>
                 <div className={styles.mainBody}>
 
                 <Login />;

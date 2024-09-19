@@ -1,5 +1,5 @@
 'use client'
-import { loginPage  } from "./loginPage";
+import { loginPage  } from "./login/loginPage";
 
 export default function Home() {
   return (
